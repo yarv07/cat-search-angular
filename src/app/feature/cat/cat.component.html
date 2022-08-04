@@ -1,0 +1,6 @@
+<div class="cat-container">
+    <div *ngFor="let cat of cats" class="flex-item">
+      <img src="{{ cat.imgSrc }}" class="cat-img"/>
+      <p>Cat breed: {{ cat.breed }}</p>
+    </div>
+</div>
